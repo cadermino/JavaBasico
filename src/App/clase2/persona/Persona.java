@@ -1,12 +1,21 @@
 package App.clase2.persona;
 
 public class Persona {
-    
+
     public String nombres;
     public String apellidos;
     public int edad;
 
     public Persona(String nombres, String apellidos, int edad) {
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.edad = edad;
+    }
+
+    public Persona() {
+    }
+
+    public void setNombresApellidos(String nombres, String apellidos, int edad) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.edad = edad;
@@ -35,6 +44,4 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    
-    
 }
