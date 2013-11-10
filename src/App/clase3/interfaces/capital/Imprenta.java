@@ -12,7 +12,7 @@ public class Imprenta {
     public static void main(String[] args) {
         Capitalizable[] obj1 = new Capitalizable[3];
         
-        obj1[0] = new Palabra("h o l a  drg ergreg ergerg  ergerg  erger  ");
+        obj1[0] = new Palabra("h o l a");
         obj1[1] = new Oracion("El murcielago rojo");
         obj1[2] = new Palabra("java");
         
