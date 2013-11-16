@@ -18,7 +18,7 @@ public class Medico extends Persona{
     long numero_licencia;
     Date año_graduado = new Date();
 
-    public void recetar(Receta_medica()){
-        System.out.println("recetando..." + Receta_medica());
+    public void recetar(String receta){
+        System.out.println("recetando..." + receta);
     }
 }
