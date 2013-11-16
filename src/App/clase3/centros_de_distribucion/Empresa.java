@@ -11,11 +11,11 @@ package App.clase3.centros_de_distribucion;
  * @author CARLOS
  */
 public abstract class Empresa {
-    int ruc;
-    String razon_social;
-    String direccion;
-    long telefono;
-    String ubicacion;
+    public int ruc;
+    public String razon_social;
+    public String direccion;
+    public long telefono;
+    public String ubicacion;
 
     public int getRuc() {
         return ruc;
