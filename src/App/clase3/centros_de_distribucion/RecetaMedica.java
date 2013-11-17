@@ -12,7 +12,7 @@ import java.util.Date;
  *
  * @author CARLOS
  */
-public class Receta_medica {
+public class RecetaMedica {
     public Date fecha_emision = new Date();
     public Date fecha_vencimiento = new Date();
     public int cantidad;
@@ -20,7 +20,7 @@ public class Receta_medica {
   
     Medico m = new Medico();
 
-    public Receta_medica(int cantidad, String nombre) {
+    public RecetaMedica(int cantidad, String nombre) {
         this.cantidad = cantidad;
         this.nombre = nombre;
     }
