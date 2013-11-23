@@ -14,7 +14,7 @@ public class Granja {
         Nutrientes hierro = new Nutrientes("hierro", "gr", "liquido");
         //System.out.println("nombre del nutriente es: "+calcio.getNombre());
         
-        Alimento cereal = new Alimento(cereal, null, null, costo, null, null);
+        //Alimento cereal = new Alimento(cereal, null, null, costo, null, null);
         
         
     }
