@@ -14,7 +14,9 @@ public class Hilos {
         //Hilos.testHiloHerencia();
         //Hilos.testHiloInterface();
         //Hilos.testSimpleHilo();
-        Hilos.testSimple2Delay();
+        //Hilos.testSimple2Delay();
+        //Hilos.testPrioridad();
+        Hilos.testEjercicio();
     }
     
     public static void testHiloHerencia() {
@@ -34,8 +36,26 @@ public class Hilos {
     }
     
     public static void testSimple2Delay() {
-        Simple2DelayThread1 delay = new Simple2DelayThread1("sdhgfrdr", 2000);
+        
+        long delay1 = (long)(Math.random()*2000);
+        Simple2DelayThread1 delay = new Simple2DelayThread1("sdhgfrdr", delay1);
         delay.start();
         
+    }
+    
+    public static void testPrioridad() {
+        Simple2DelayThread1 thread1 = new Simple2DelayThread1("carlos", 0);
+        Simple2DelayThread1 thread2 = new Simple2DelayThread1("dyubgu", 0);
+        
+        thread1.setPriority(Thread.MAX_PRIORITY);
+        thread2.setPriority(Thread.MIN_PRIORITY);
+        
+        thread2.start();
+        thread1.start();
+    }
+    public static void testEjercicio() {
+        
+        ProcesosHilo proceso = new ProcesosHilo();
+        proceso.start();
     }
 }

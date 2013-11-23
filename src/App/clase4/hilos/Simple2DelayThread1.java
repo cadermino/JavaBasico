@@ -26,7 +26,7 @@ public class Simple2DelayThread1 extends Thread{
     public void run(){
         for (int i = 0; i < 5; i++) {
             
-            System.out.println("nombre: " + nombre + "delay: " + delay);
+            System.out.println("nombre: " + nombre + " delay: " + delay);
             try {
                 Thread.sleep(1000l);
             } catch (InterruptedException ex) {
