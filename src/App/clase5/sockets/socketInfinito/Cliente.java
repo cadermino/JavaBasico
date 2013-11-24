@@ -2,8 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package App.clase5.sockets.ejemplo1;
+package App.clase5.sockets.socketInfinito;
 
+import App.clase5.sockets.socketBasico.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -33,7 +34,7 @@ public class Cliente {
             String msg = in.readLine();
             System.out.println(msg);
             // COMUNICACION 2
-            out.println("CLIENTE: Carlos Calderon");
+            out.println("CLIENTE: Carlos Calderon Palomino edad 28 años");
             // Cerrar canales
             in.close();
             out.close();

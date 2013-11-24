@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package App.clase5.sockets.ejemplo1;
+package App.clase5.sockets.socketBasico;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
