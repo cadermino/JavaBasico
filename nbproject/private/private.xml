@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
@@ -9,3 +10,25 @@
         </group>
     </open-files>
 </project-private>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/JavaBasico/src/App/clase3/objeto/TestObjeto.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase2/animales/Tigre.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase2/animales/Animal.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/interfaces/capital/Palabra.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/objeto/Pruebas.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/interfaces/capital/Capitalizable.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/objeto/Socio.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/formato/Formato.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/cadenas/Cadena.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase2/animales/Gato.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/interfaces/capital/Oracion.java</file>
+            <file>file:/E:/JavaBasico/src/App/clase3/interfaces/capital/Imprenta.java</file>
+        </group>
+    </open-files>
+</project-private>
+>>>>>>> f8db959cb7b322ffc6e53c5bf5fdbcdff52227d7
